@@ -1,9 +1,18 @@
 {
   "version": 4,
   "terraform_version": "1.15.9",
-  "serial": 8,
+  "serial": 12,
   "lineage": "b985261b-8491-a6ce-31c3-0c26722cd6d0",
-  "outputs": {},
+  "outputs": {
+    "bucket_name": {
+      "value": "oleg-hw-secure-bucket-2026",
+      "type": "string"
+    },
+    "kms_key_id": {
+      "value": "abjsascfa7q0e6e7i3qa",
+      "type": "string"
+    }
+  },
   "resources": [
     {
       "mode": "managed",

@@ -71,13 +71,17 @@ variable "folder_id" {
 
 ### Результаты выполнения
 
+### Результаты выполнения
+
 1. Проверка состояния инфраструктуры через Terraform:
 ![Terraform Output](screenshots/01_terraform_apply_output.png)
 *Примечание: на скриншоте показан вывод `terraform apply` для существующей инфраструктуры, подтверждающий корректные выходные параметры (Outputs) созданного ключа и бакета.*
-
 
 2. Бакет создан и отображается в консоли Object Storage:
 ![Bucket List](screenshots/03a_yandex_bucket_list.png)
 
 3. Настройки шифрования бакета в консоли (вкладка "Безопасность" → "Шифрование"):
 ![Bucket Encryption](screenshots/03_yandex_bucket_encryption.png)
+
+4. Созданный ключ в Yandex KMS:
+![KMS Key](screenshots/02_yandex_kms_key_list.png)
